@@ -40,4 +40,11 @@ form.register {
 .breadcrumb >.active {
     color: #FFFFFF;
  }
- 
+
+ .breadcrumb-item + .breadcrumb-item::before {
+    color: #FFFFFF; /* Change to your desired color */
+}
+
+.visible-link{
+    color: lightblue !important;
+}
