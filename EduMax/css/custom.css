@@ -29,25 +29,36 @@ form.register {
 }
 
 .bg-primary {
-    background-color: #363636  !important;
+    background-color: #363636  !important;    /* Change to your desired color */
     color:#ffffff
 }
 
-.nav-link {
+.nav-link {                                     /* Nav bar links primary color */
     color: #FFFFFF;
+
 }
 
-.breadcrumb >.active {
+.other-link{
+    color: lightblue !important;            /* footer link color */
+
+}
+.other-link:hover{
+        color: red !important;               /* footer link hover color */
+    }
+
+    /* Breadcrumb elements */
+.breadcrumb >.active {  
     color: #FFFFFF;
  }
 
  .breadcrumb-item + .breadcrumb-item::before {
-    color: #FFFFFF; /* Change to your desired color */
+    color: #FFFFFF; 
 }
 
-.visible-link{
-    color: lightblue !important;
-}
+.breadcrumb a {
+    color: lightblue; /* Breadcrumb links color */
+} 
 
-.breadcrumb a {color: lightblue;}
-
+.breadcrumb a:hover {
+    color: red                      /* Breadcrumb links hover color */
+} 
