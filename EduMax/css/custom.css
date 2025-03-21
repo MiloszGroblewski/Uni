@@ -49,4 +49,5 @@ form.register {
     color: lightblue !important;
 }
 
-.breadcrumb a:visited { color: #FFFFFF;}
+.breadcrumb a {color: lightblue;}
+
