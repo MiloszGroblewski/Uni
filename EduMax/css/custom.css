@@ -1,5 +1,5 @@
 .header {
-    background-color: #3c9fc3;
+    background-color: #363636;
     color: white;
 }
 
@@ -8,11 +8,11 @@ h1.header {
 }
 
 h2, h3, h4 {
-    color: black;
+    color: #FFFFFF;
 }
 
 form.register {
-    border: 1px solid #3c9fc3;
+    border: 1px solid #FFFFFF;
     background-color: lightgrey;
     border-radius: 15px;
     padding: 15px;
@@ -27,3 +27,26 @@ form.register {
     width: 125px;
     height: 125px;
 }
+
+.bg-primary {
+    background-color: #363636  !important;
+    color:#ffffff
+}
+
+.nav-link {
+    color: #FFFFFF;
+}
+
+.breadcrumb >.active {
+    color: #FFFFFF;
+ }
+
+ .breadcrumb-item + .breadcrumb-item::before {
+    color: #FFFFFF; /* Change to your desired color */
+}
+
+.visible-link{
+    color: lightblue !important;
+}
+
+.breadcrumb a:visited { color: #FFFFFF;}
