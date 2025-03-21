@@ -48,3 +48,6 @@ form.register {
 .visible-link{
     color: lightblue !important;
 }
+
+.breadcrumb a:visited { color: #FFFFFF;}
+
