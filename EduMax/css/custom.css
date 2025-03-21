@@ -8,7 +8,7 @@ h1.header {
 }
 
 h2, h3, h4 {
-    color: #7bd5d5;
+    color: #FFFFFF;
 }
 
 form.register {
@@ -26,4 +26,9 @@ form.register {
 .img:hover {
     width: 125px;
     height: 125px;
+}
+
+.bg-primary {
+    background-color: #363636  !important;
+    color:#ffffff
 }
